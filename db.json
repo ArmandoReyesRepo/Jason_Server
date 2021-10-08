@@ -1,0 +1,691 @@
+{
+  "dishes": [
+    {
+      "id": 0,
+      "name": "Uthappizza",
+      "image": "images/uthappizza.png",
+      "category": "mains",
+      "label": "Hot",
+      "price": "4.99",
+      "featured": true,
+      "description": "A unique combination of Indian Uthappam (pancake) and Italian pizza, topped with Cerignola olives, ripe vine cherry tomatoes, Vidalia onion, Guntur chillies and Buffalo Paneer."
+    },
+    {
+      "id": 1,
+      "name": "Zucchipakoda",
+      "image": "images/zucchipakoda.png",
+      "category": "appetizer",
+      "label": "",
+      "price": "1.99",
+      "featured": false,
+      "description": "Deep fried Zucchini coated with mildly spiced Chickpea flour batter accompanied with a sweet-tangy tamarind sauce"
+    },
+    {
+      "id": 2,
+      "name": "Vadonut",
+      "image": "images/vadonut.png",
+      "category": "appetizer",
+      "label": "New",
+      "price": "1.99",
+      "featured": false,
+      "description": "A quintessential ConFusion experience, is it a vada or is it a donut?"
+    },
+    {
+      "id": 3,
+      "name": "ElaiCheese Cake",
+      "image": "images/elaicheesecake.png",
+      "category": "dessert",
+      "label": "",
+      "price": "2.99",
+      "featured": false,
+      "description": "A delectable, semi-sweet New York Style Cheese Cake, with Graham cracker crust and spiced with Indian cardamoms"
+    }
+  ],
+  "comments": [
+    {
+      "id": 0,
+      "dishId": 0,
+      "rating": 5,
+      "comment": "Imagine all the eatables, living in conFusion!",
+      "author": "John Lemon",
+      "date": "2012-10-16T17:57:28.556094Z"
+    },
+    {
+      "id": 1,
+      "dishId": 0,
+      "rating": 4,
+      "comment": "Sends anyone to heaven, I wish I could get my mother-in-law to eat it!",
+      "author": "Paul McVites",
+      "date": "2014-09-05T17:57:28.556094Z"
+    },
+    {
+      "id": 2,
+      "dishId": 0,
+      "rating": 3,
+      "comment": "Eat it, just eat it!",
+      "author": "Michael Jaikishan",
+      "date": "2015-02-13T17:57:28.556094Z"
+    },
+    {
+      "id": 3,
+      "dishId": 0,
+      "rating": 4,
+      "comment": "Ultimate, Reaching for the stars!",
+      "author": "Ringo Starry",
+      "date": "2013-12-02T17:57:28.556094Z"
+    },
+    {
+      "id": 4,
+      "dishId": 0,
+      "rating": 2,
+      "comment": "It's your birthday, we're gonna party!",
+      "author": "25 Cent",
+      "date": "2011-12-02T17:57:28.556094Z"
+    },
+    {
+      "id": 5,
+      "dishId": 1,
+      "rating": 5,
+      "comment": "Imagine all the eatables, living in conFusion!",
+      "author": "John Lemon",
+      "date": "2012-10-16T17:57:28.556094Z"
+    },
+    {
+      "id": 6,
+      "dishId": 1,
+      "rating": 4,
+      "comment": "Sends anyone to heaven, I wish I could get my mother-in-law to eat it!",
+      "author": "Paul McVites",
+      "date": "2014-09-05T17:57:28.556094Z"
+    },
+    {
+      "id": 7,
+      "dishId": 1,
+      "rating": 3,
+      "comment": "Eat it, just eat it!",
+      "author": "Michael Jaikishan",
+      "date": "2015-02-13T17:57:28.556094Z"
+    },
+    {
+      "id": 8,
+      "dishId": 1,
+      "rating": 4,
+      "comment": "Ultimate, Reaching for the stars!",
+      "author": "Ringo Starry",
+      "date": "2013-12-02T17:57:28.556094Z"
+    },
+    {
+      "id": 9,
+      "dishId": 1,
+      "rating": 2,
+      "comment": "It's your birthday, we're gonna party!",
+      "author": "25 Cent",
+      "date": "2011-12-02T17:57:28.556094Z"
+    },
+    {
+      "id": 10,
+      "dishId": 2,
+      "rating": 5,
+      "comment": "Imagine all the eatables, living in conFusion!",
+      "author": "John Lemon",
+      "date": "2012-10-16T17:57:28.556094Z"
+    },
+    {
+      "id": 11,
+      "dishId": 2,
+      "rating": 4,
+      "comment": "Sends anyone to heaven, I wish I could get my mother-in-law to eat it!",
+      "author": "Paul McVites",
+      "date": "2014-09-05T17:57:28.556094Z"
+    },
+    {
+      "id": 12,
+      "dishId": 2,
+      "rating": 3,
+      "comment": "Eat it, just eat it!",
+      "author": "Michael Jaikishan",
+      "date": "2015-02-13T17:57:28.556094Z"
+    },
+    {
+      "id": 13,
+      "dishId": 2,
+      "rating": 4,
+      "comment": "Ultimate, Reaching for the stars!",
+      "author": "Ringo Starry",
+      "date": "2013-12-02T17:57:28.556094Z"
+    },
+    {
+      "id": 14,
+      "dishId": 2,
+      "rating": 2,
+      "comment": "It's your birthday, we're gonna party!",
+      "author": "25 Cent",
+      "date": "2011-12-02T17:57:28.556094Z"
+    },
+    {
+      "id": 15,
+      "dishId": 3,
+      "rating": 5,
+      "comment": "Imagine all the eatables, living in conFusion!",
+      "author": "John Lemon",
+      "date": "2012-10-16T17:57:28.556094Z"
+    },
+    {
+      "id": 16,
+      "dishId": 3,
+      "rating": 4,
+      "comment": "Sends anyone to heaven, I wish I could get my mother-in-law to eat it!",
+      "author": "Paul McVites",
+      "date": "2014-09-05T17:57:28.556094Z"
+    },
+    {
+      "id": 17,
+      "dishId": 3,
+      "rating": 3,
+      "comment": "Eat it, just eat it!",
+      "author": "Michael Jaikishan",
+      "date": "2015-02-13T17:57:28.556094Z"
+    },
+    {
+      "id": 18,
+      "dishId": 3,
+      "rating": 4,
+      "comment": "Ultimate, Reaching for the stars!",
+      "author": "Ringo Starry",
+      "date": "2013-12-02T17:57:28.556094Z"
+    },
+    {
+      "id": 19,
+      "dishId": 3,
+      "rating": 2,
+      "comment": "It's your birthday, we're gonna party!",
+      "author": "25 Cent",
+      "date": "2011-12-02T17:57:28.556094Z"
+    },
+    {
+      "dishId": 1,
+      "rating": "4",
+      "author": "Jogesh Muppala",
+      "comment": "This is a comment",
+      "date": "2020-05-28T10:45:23.063Z",
+      "id": 20
+    },
+    {
+      "dishId": 1,
+      "rating": "4",
+      "author": "pinky",
+      "comment": "es un comentartio",
+      "date": "2020-05-28T11:57:03.041Z",
+      "id": 21
+    },
+    {
+      "dishId": 1,
+      "rating": "3",
+      "author": "uzbekito",
+      "comment": "una prueba",
+      "date": "2020-05-28T12:03:33.424Z",
+      "id": 22
+    },
+    {
+      "dishId": 0,
+      "rating": "4",
+      "author": "Pedorrencio Gtz",
+      "comment": "Probando el mensaje",
+      "date": "2020-05-28T12:11:05.434Z",
+      "id": 23
+    },
+    {
+      "dishId": 0,
+      "rating": "5",
+      "author": "Abdiel",
+      "comment": "Este es un comentario de Abdiel",
+      "date": "2020-05-29T15:47:28.570Z",
+      "id": 24
+    },
+    {
+      "dishId": 0,
+      "author": "Juliancito",
+      "comment": "Mensaje de Juliancito",
+      "date": "2020-05-29T15:52:13.445Z",
+      "id": 25
+    },
+    {
+      "dishId": 1,
+      "rating": "4",
+      "author": "Vangelis",
+      "comment": "Vangelis le gustó este platillo.",
+      "date": "2020-05-29T18:26:50.141Z",
+      "id": 26
+    },
+    {
+      "dishId": 3,
+      "rating": "3",
+      "author": "Gugulushco",
+      "comment": "Prueba de envío",
+      "date": "2020-05-29T21:31:36.810Z",
+      "id": 27
+    },
+    {
+      "dishId": 1,
+      "rating": "3",
+      "author": "Pinky",
+      "comment": "Testing Message",
+      "date": "2020-06-02T01:43:55.357Z",
+      "id": 28
+    },
+    {
+      "dishId": 1,
+      "rating": "4",
+      "author": "Ukulito",
+      "comment": "fasdfadsf\nasdfadsf\nasdfasdf",
+      "date": "2020-06-03T23:04:02.853Z",
+      "id": 29
+    },
+    {
+      "dishId": 0,
+      "rating": "4",
+      "author": "Peloncini Dot",
+      "comment": "Este es un mensaje de Prueba con Karla.",
+      "date": "2020-07-07T20:44:51.169Z",
+      "id": 30
+    },
+    {
+      "dishId": 0,
+      "rating": "3",
+      "author": "Uzbekito_Dot_Mx",
+      "comment": "Su comida está deliciosa.",
+      "date": "2021-10-08T03:10:30.059Z",
+      "id": 31
+    }
+  ],
+  "promotions": [
+    {
+      "id": 0,
+      "name": "Weekend Grand Buffet",
+      "image": "images/buffet.png",
+      "label": "New",
+      "price": "19.99",
+      "featured": true,
+      "description": "Featuring mouthwatering combinations with a choice of five different salads, six enticing appetizers, six main entrees and five choicest desserts. Free flowing bubbly and soft drinks. All for just $19.99 per person "
+    }
+  ],
+  "leaders": [
+    {
+      "id": 0,
+      "name": "Peter Pan",
+      "image": "images/alberto.png",
+      "designation": "Chief Epicurious Officer",
+      "abbr": "CEO",
+      "featured": false,
+      "description": "Our CEO, Peter, credits his hardworking East Asian immigrant parents who undertook the arduous journey to the shores of America with the intention of giving their children the best future. His mother's wizardy in the kitchen whipping up the tastiest dishes with whatever is available inexpensively at the supermarket, was his first inspiration to create the fusion cuisines for which The Frying Pan became well known. He brings his zeal for fusion cuisines to this restaurant, pioneering cross-cultural culinary connections."
+    },
+    {
+      "id": 1,
+      "name": "Dhanasekaran Witherspoon",
+      "image": "images/alberto.png",
+      "designation": "Chief Food Officer",
+      "abbr": "CFO",
+      "featured": false,
+      "description": "Our CFO, Danny, as he is affectionately referred to by his colleagues, comes from a long established family tradition in farming and produce. His experiences growing up on a farm in the Australian outback gave him great appreciation for varieties of food sources. As he puts it in his own words, Everything that runs, wins, and everything that stays, pays!"
+    },
+    {
+      "id": 2,
+      "name": "Agumbe Tang",
+      "image": "images/alberto.png",
+      "designation": "Chief Taste Officer",
+      "abbr": "CTO",
+      "featured": false,
+      "description": "Blessed with the most discerning gustatory sense, Agumbe, our CFO, personally ensures that every dish that we serve meets his exacting tastes. Our chefs dread the tongue lashing that ensues if their dish does not meet his exacting standards. He lives by his motto, You click only if you survive my lick."
+    },
+    {
+      "id": 3,
+      "name": "Alberto Somayya",
+      "image": "images/alberto.png",
+      "designation": "Executive Chef",
+      "abbr": "EC",
+      "featured": true,
+      "description": "Award winning three-star Michelin chef with wide International experience having worked closely with whos-who in the culinary world, he specializes in creating mouthwatering Indo-Italian fusion experiences. He says, Put together the cuisines from the two craziest cultures, and you get a winning hit! Amma Mia!"
+    }
+  ],
+  "feedback": [
+    {
+      "firstname": "fdas",
+      "lastname": "afds",
+      "telnum": "134113",
+      "email": "dafdads@daffas.dfdafd",
+      "agree": true,
+      "contactType": "Email",
+      "message": "afadsfds",
+      "date": "2017-12-04T09:41:49.890Z",
+      "id": 1
+    },
+    {
+      "firstname": "Armanditorito",
+      "lastname": "Reyes",
+      "telnum": "1234566",
+      "email": "ar@abc.du",
+      "agree": true,
+      "contactType": "Email",
+      "message": "Testing message.",
+      "date": "2020-05-30T01:14:47.829Z",
+      "id": 2
+    },
+    {
+      "firstname": "Peter Boy",
+      "lastname": "Uzbekin",
+      "telnum": "123456789",
+      "email": "ab@cde.ge",
+      "agree": true,
+      "contactType": "Email",
+      "message": "This is a new test.",
+      "date": "2020-05-30T01:20:04.835Z",
+      "id": 3
+    },
+    {
+      "firstname": "JulitoChiquitin",
+      "lastname": "Uzbekito",
+      "telnum": "12345678",
+      "email": "ab@cde.ge",
+      "agree": true,
+      "contactType": "Tel",
+      "message": "New Test.",
+      "date": "2020-05-30T01:23:08.720Z",
+      "id": 4
+    },
+    {
+      "firstname": "testing2",
+      "lastname": "testing23",
+      "telnum": "123456789",
+      "email": "ab@cde.fg",
+      "agree": true,
+      "contactType": "Email",
+      "message": "123456789",
+      "date": "2020-05-30T01:24:17.029Z",
+      "id": 5
+    },
+    {
+      "firstname": "PeterPancito",
+      "lastname": "Uzbekin",
+      "telnum": "1234567",
+      "email": "ba@abc.de",
+      "agree": true,
+      "contactType": "Email",
+      "message": "This is a test from my message.\n\n",
+      "date": "2020-05-30T01:28:52.006Z",
+      "id": 6
+    },
+    {
+      "firstname": "PeterPancito",
+      "lastname": "Tusca",
+      "telnum": "123456",
+      "email": "ab@ca.de",
+      "agree": true,
+      "contactType": "Email",
+      "message": "Testing message.",
+      "date": "2020-05-30T01:33:15.867Z",
+      "id": 7
+    },
+    {
+      "firstname": "Armando",
+      "lastname": "Reyes",
+      "telnum": "1234567",
+      "email": "karreyes@gmail.com",
+      "agree": true,
+      "contactType": "Email",
+      "message": "dfasfdafa\ndfadfadsf\nadsfasdfs",
+      "date": "2020-05-30T01:36:03.944Z",
+      "id": 8
+    },
+    {
+      "firstname": "xxxxxxxxx",
+      "lastname": "yyyyyyyyy",
+      "telnum": "1234564654",
+      "email": "ab@ca.de",
+      "agree": true,
+      "contactType": "Tel",
+      "message": "adfasdfasdf\nadsfadsfa\nadfaf",
+      "date": "2020-05-30T01:42:04.352Z",
+      "id": 9
+    },
+    {
+      "firstname": "aaaaaaa",
+      "lastname": "vvvvvvv",
+      "telnum": "1234",
+      "email": "karreyes@gmail.com",
+      "agree": true,
+      "contactType": "Email",
+      "message": "fadsfasdf\nadfadsfadsf\nadfadsfadf\n",
+      "date": "2020-05-30T01:42:52.176Z",
+      "id": 10
+    },
+    {
+      "firstname": "Armando",
+      "lastname": "Reyes",
+      "telnum": "123456",
+      "email": "karreyes@gmail.com",
+      "agree": true,
+      "contactType": "Email",
+      "message": "dfadfasfaadfa",
+      "date": "2020-05-30T01:47:22.079Z",
+      "id": 11
+    },
+    {
+      "firstname": "Armando",
+      "lastname": "sdfgsdfgsgf",
+      "telnum": "1234567",
+      "email": "karreyes@gmail.com",
+      "agree": true,
+      "contactType": "Email",
+      "message": "sadfsafasfdaf\nadfasdfasfsadf\nasdfasdfasdff\n",
+      "date": "2020-05-30T01:48:34.001Z",
+      "id": 12
+    },
+    {
+      "firstname": "Armando",
+      "lastname": "Reyes",
+      "telnum": "123456",
+      "email": "karreyes@gmail.com",
+      "agree": true,
+      "contactType": "Email",
+      "message": "dfadfadf\nasdfadfasdfsa\nadfadfasfd",
+      "date": "2020-05-30T01:55:02.075Z",
+      "id": 13
+    },
+    {
+      "firstname": "Cushkita",
+      "lastname": "Kalita",
+      "telnum": "456789",
+      "email": "larreyes@gmail.com",
+      "agree": true,
+      "contactType": "Email",
+      "message": "",
+      "date": "2020-05-30T02:00:19.024Z",
+      "id": 14
+    },
+    {
+      "firstname": "Armando",
+      "lastname": "Reyes",
+      "telnum": "1234567",
+      "email": "marreyes@gmail.com",
+      "agree": true,
+      "contactType": "Email",
+      "message": "",
+      "date": "2020-05-30T02:04:30.885Z",
+      "id": 15
+    },
+    {
+      "firstname": "Armando",
+      "lastname": "Reyes",
+      "telnum": "123456",
+      "email": "karreyes@gmail.com",
+      "agree": true,
+      "contactType": "Email",
+      "message": "",
+      "date": "2020-05-30T02:49:01.638Z",
+      "id": 16
+    },
+    {
+      "firstname": "Armando",
+      "lastname": "Reyes",
+      "telnum": "1234567",
+      "email": "karreyes@gmail.com",
+      "agree": true,
+      "contactType": "Email",
+      "message": "fddadfsasdfa\nadfadfadf\nadfasdfadsf\n",
+      "date": "2020-05-30T02:49:31.428Z",
+      "id": 17
+    },
+    {
+      "firstname": "peterboy",
+      "lastname": "Reyes",
+      "telnum": "123456",
+      "email": "cuarreyes@gmail.com",
+      "agree": true,
+      "contactType": "Email",
+      "feedback": "dasfadfasfs\ndafadsfafdadsfafd\nadfadfsafdsa",
+      "date": "2020-05-30T02:53:55.547Z",
+      "id": 18
+    },
+    {
+      "firstname": "armando ",
+      "lastname": "reyes",
+      "telnum": "45679879",
+      "email": "armando_reyes_martinez@hotmail.com",
+      "agree": true,
+      "contactType": "Email",
+      "feedback": "dfasdfasdf\nsadfasdfadsf\nadfadfadsfsaf\nasdfasdfasf\n",
+      "date": "2020-05-30T02:54:39.738Z",
+      "id": 19
+    },
+    {
+      "firstname": "Juliancito",
+      "lastname": "Rodríguez",
+      "telnum": "1234567890",
+      "email": "piccardo@tecl.man",
+      "agree": true,
+      "contactType": "Tel",
+      "feedback": "testing mi message",
+      "date": "2020-05-30T03:00:14.455Z",
+      "id": 20
+    },
+    {
+      "firstname": "Enriquito",
+      "lastname": "Peludito",
+      "telnum": "654321",
+      "email": "kike@pin.do",
+      "agree": true,
+      "contactType": "Email",
+      "message": "testing 1 .2 3.\n",
+      "date": "2020-05-30T03:06:03.096Z",
+      "id": 21
+    },
+    {
+      "firstname": "pedrito",
+      "lastname": "gzlz",
+      "telnum": "1234567",
+      "email": "jarreyes@gmail.com",
+      "agree": true,
+      "contactType": "Email",
+      "message": "kjhgjkhgkjhgjh\nhjgkjhgkjgjkh",
+      "date": "2020-05-30T03:47:54.325Z",
+      "id": 22
+    },
+    {
+      "firstname": "karina",
+      "lastname": "ANGUILA",
+      "telnum": "69875",
+      "email": "karI@gmail.com",
+      "agree": true,
+      "contactType": "Email",
+      "message": "7896464678HGKJHGKJGHJ\nJHKGJKHGJKGHJ",
+      "date": "2020-05-30T03:52:39.948Z",
+      "id": 23
+    },
+    {
+      "firstname": "Armando",
+      "lastname": "Reyes",
+      "telnum": "123456",
+      "email": "arreyes@gmail.COM",
+      "agree": true,
+      "contactType": "Tel",
+      "message": "797897987\n54\n54\n54\n654\n654\n",
+      "date": "2020-05-30T03:56:20.364Z",
+      "id": 24
+    },
+    {
+      "firstname": "Pinky Boy",
+      "lastname": "Uzbeko",
+      "telnum": "654321",
+      "email": "pu@kiu.com",
+      "agree": true,
+      "contactType": "Email",
+      "message": "Message testing.",
+      "date": "2020-06-01T17:00:48.144Z",
+      "id": 25
+    },
+    {
+      "firstname": "Pit",
+      "lastname": "Anguiña",
+      "telnum": "456789",
+      "email": "ab@ab.com",
+      "agree": true,
+      "contactType": "Email",
+      "message": "dfasdfsa\nadsfasdf\nadfasdf",
+      "id": 26
+    },
+    {
+      "firstname": "julito",
+      "lastname": "armando",
+      "telnum": "654321",
+      "email": "karreyes@gmail.com",
+      "agree": true,
+      "contactType": "Email",
+      "message": "sdakljfañldjfka\nfasdlkkfjasñldjfkalf\nadsfasdfñljkadñlkfj\nadsfljañldkfjaslkdfj",
+      "id": 27
+    },
+    {
+      "firstname": "Armando",
+      "lastname": "Reyes ",
+      "telnum": "4645649879",
+      "email": "tureyes@gmail.com",
+      "agree": true,
+      "contactType": "Email",
+      "message": "\n\nTesting again the message.",
+      "date": "2020-06-02T01:45:15.185Z",
+      "id": 28
+    },
+    {
+      "firstname": "Armando1",
+      "lastname": "Reyes1",
+      "telnum": "6543212222",
+      "email": "rreyes@gmail.com",
+      "agree": true,
+      "contactType": "Email",
+      "message": "dfasdfasdf\nadfasdfasd\nadfadsfasdfaf\nadfasdfadsfasd\n",
+      "date": "2020-06-03T22:11:28.326Z",
+      "id": 29
+    },
+    {
+      "firstname": "Julito",
+      "lastname": "Rodríguez",
+      "telnum": "456789012",
+      "email": "ab@hotmail.com",
+      "agree": true,
+      "contactType": "Email",
+      "message": "testing the server\ntesting the server\ntesting the server\ntesting the server\ntesting the server\n",
+      "date": "2020-06-03T22:37:33.862Z",
+      "id": 30
+    },
+    {
+      "firstname": "PeterUli",
+      "lastname": "Rodríguez",
+      "telnum": "789456131",
+      "email": "ab@hotmail.com",
+      "agree": true,
+      "contactType": "Email",
+      "message": "dfasdfa\ndafasdfa\nfadfaf\nadfafasdfadf",
+      "date": "2020-06-03T23:04:58.226Z",
+      "id": 31
+    }
+  ]
+}
